@@ -5,19 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 </head>
-<body>
-<h1> your quote and details: {{ quote }}, {{name}}, {{age}}! </h1>
+<body style="background-color:lightblue">
+<h1 style="font-family:fantasy;"> your quote and details: {{ quote }}, {{name}}, {{age}}! </h1>
 
-<p> add another quote!!! </p>
+<p style="font-family:fantasy;"> add another quote!!! </p>
 
 <<form action="/" method="POST">
     <input type="text" quote="quote" placeholder="quote">
     <input type="text" quote="name" placeholder="name">
     <input type="text" quote="age" placeholder="age">
-    <p> do you like the website? </p>
+    <p style="font-family:fantasy;"> do you like the website? </p>
     <br>
-    <input type="text" name="type" value="yes">yes
-    <input type="text" name="type" value="sure">sure
+    <input type="text" name="type" value="yes" style="font-family:fantasy;">yes
+    <input type="text" name="type" value="sure" style="font-family:fantasy;">sure
 
     <br>
     <input type="submit" value="Submit">

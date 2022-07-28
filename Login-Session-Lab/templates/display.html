@@ -6,9 +6,23 @@
 	<title></title>
 </head>
 <body>
+<h1> your quote and details: {{ quote }}, {{name}}, {{age}}! </h1>
 
-<!-- Display the variables from the login session here!
- -->
+<p> add another quote!!! </p>
+
+<<form action="/" method="POST">
+    <input type="text" quote="quote" placeholder="quote">
+    <input type="text" quote="name" placeholder="name">
+    <input type="text" quote="age" placeholder="age">
+    <p> do you like the website? </p>
+    <br>
+    <input type="text" name="type" value="yes">yes
+    <input type="text" name="type" value="sure">sure
+
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
 
 </body>
 </html>
